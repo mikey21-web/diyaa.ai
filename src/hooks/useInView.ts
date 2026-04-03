@@ -7,7 +7,7 @@ interface UseInViewOptions {
 }
 
 export interface UseInViewReturn {
-  ref: React.RefObject<HTMLDivElement>;
+  ref: React.RefObject<HTMLDivElement | null>;
   inView: boolean;
 }
 
